@@ -12,6 +12,7 @@ const sequelize = new Sequelize(dburl)
 
 
 
+
 const Book = sequelize.define("book", {
     id: {
         type: Sequelize.INTEGER,
