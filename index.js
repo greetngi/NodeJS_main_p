@@ -7,7 +7,7 @@ app.use(express.json())
 console.log("Start\n\n\n\n")
 
 
-const dburl = "postgres://webadmin:GKAtod14125@node56582-env-8359299.proen.app.ruk-com.cloud:11881/Books" // delete port 11344 if wanna run on rukcom
+const dburl = "postgres://webadmin:GKAtod14125@node56582-env-8359299.proen.app.ruk-com.cloud/Books" // delete port 11344 if wanna run on rukcom
 const sequelize = new Sequelize(dburl)
 
 
